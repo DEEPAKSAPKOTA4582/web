@@ -1,0 +1,78 @@
+/* Reset default styles
+header css 
+*/
+header {
+    background-image: url("/images/Back\ groudd\ color.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Additional styles for the navigation bar */
+}
+
+.white {
+    color: white;
+}
+
+
+navbar {
+    background-color: #220bef;
+    padding: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.white {
+    color: white;
+}
+
+
+
+
+/* footer css code */
+
+footer {
+    background-color: rgba(5, 5, 12, 0.884);
+    padding: 40px;
+    color: rgb(244, 246, 247);
+    text-align: center;
+    /* Additional styles for the navigation bar */
+}
+
+.white {
+    color: white;
+}
+
+
+.rating {
+    display: inline-block;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    float: right;
+    color: #aaa;
+    font-size: 20px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.rating label:before {
+    content: '\2605';
+    padding: 5px;
+}
+
+.rating input:checked~label,
+.rating input:checked~label~label {
+    color: #e9bf06;
+}
+
+.rating label:hover,
+.rating label:hover~label {
+    color: #e9bf06;
+}
